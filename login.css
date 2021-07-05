@@ -1,0 +1,52 @@
+/* style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    background-color: white;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+}
+
+.card {
+    height: 370px;
+    width: 400px;
+    background-color: rgba(0, 100, 0, 0.5) !important;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.links {
+    color: white;
+}
+
+.card-footer a {
+    text-decoration: none;
+}
