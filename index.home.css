@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: red;
+}
+
+.nav_img_logo {
+    width: 200px;
+    height: 50px;
+}
+
+.navbar-list-header li a {
+    color: black !important;
+}
+
+.navbar-list-header li:hover {
+    border-bottom: 1px solid red !important;
+}
+
+.navbar-header {
+    height: 50px;
+    line-height: 50px;
+}
+
+.rounded {
+    border-radius: 20px !important;
+}
+
+.form-find-header {
+    width: calc(42%) !important;
+}
+
+.form-find-header input {
+    width: 100% !important;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.slider {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slider img {
+    max-width: 10%;
+    width: 600px;
+    height: 350px;
+}

@@ -1,13 +1,87 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
+<!doctype html>
+<html lang="en">
 
-.input-group-text {
-    background-color: #FFC312;
-    border: 0px;
-}
+<head>
+    <title>Register User</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-.form-create-account {
-    background-color: rgba(0, 100, 0, 0.5) !important;
-}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('css/register_user.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center mt-5">
+            <div class="form-group w-50 mt-5 form-create-account">
+                <h3 style="text-align:center" class="my-4">Create Account</h3>
+                <form action="">
+                    <div class="input-group form-group w-75 mx-auto">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id=""><i class="fa fa-user"></i></span>
+                        </div>
+                        <input class="form-control" type="text" name="fullname" placeholder="Full Name" aria-label="Full Name" aria-describedby="fullname">
+                    </div>
+                    <!-- <div class="row w-75 mx-auto form-group">
+                        <div class="input-group-append mr-4">
+                            <span class="input-group-text" id=""><i class="fa fa-transgender-alt"></i></span>
+                        </div>
+                        <div class="form-check mr-4">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label text-white" for="flexRadioDefault1">
+                                Men
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label text-white" for="flexRadioDefault2">
+                                Girls
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group form-group w-75 mx-auto">
+                        <input class="form-control" type="date" name="birthday" placeholder="" aria-label="birthday" aria-describedby="birthday">
+                    </div> -->
+                    <div class="input-group form-group w-75 mx-auto">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id=""><i class="fa fa-envelope"></i></span>
+                        </div>
+                        <input class="form-control" type="text" name="email" placeholder="Email" aria-label="Email" aria-describedby="email">
+                    </div>
+                    <div class="input-group form-group w-75 mx-auto">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id=""> <i class="fa fa-phone"></i></span>
+                        </div>
+                        <input class="form-control" type="text" name="phone" placeholder="Phone" aria-label="Phone" aria-describedby="phone">
+                    </div>
+                    <div class="input-group form-group w-75 mx-auto">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id=""><i class="fa fa-lock"></i></span>
+                        </div>
+                        <input class="form-control" type="password" name="password" placeholder="Password" aria-label="Password" aria-describedby="Password">
+                    </div>
+                    <div class="input-group form-group w-75 mx-auto">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id=""><i class="fa fa-lock"></i></span>
+                        </div>
+                        <input class="form-control" type="password" name="cofirm_pass" placeholder="Confirm Pasword" aria-label="Confirm Pasword" aria-describedby="Confirm Pasword">
+                    </div>
+                    <div class="input-group form-group w-75 mx-auto">
+                        <input type="submit" value="Create Account" class="btn btn-primary w-100">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
